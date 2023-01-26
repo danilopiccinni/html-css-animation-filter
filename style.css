@@ -149,6 +149,11 @@
     100% {rotate: 360deg;}
 }
 
-.ex-10-icon:hover {
+.ex-10-icon {
     animation: rotazione360 3s infinite;
 }
+
+/* -------------------------------- */
+
+
+
