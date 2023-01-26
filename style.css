@@ -81,40 +81,55 @@
 
 /* -------------------------------- */
 /* le mie soluzioni */
+
 .ex-1-square:hover {
     background-color: red;
 }
+/* -------------------------------- */
 
 .ex-2-square:active {
     width: 1100px;
 }
+/* -------------------------------- */
 
 .ex-3-square:hover {
     border-radius: 50px;
 }
+/* -------------------------------- */
 
 .ex-4-square:hover {
     opacity: 0;
 }
+/* -------------------------------- */
 
 .ex-5-square:hover {
     width: 75px;
     height: 75px;
-}
+}/* -------------------------------- */
+
 
 .ex-5-square:active {
     width: 50px;
     height: 50px;
 }
+/* -------------------------------- */
 
 .ex-6-img:hover {
     filter: grayscale(100%);
 }
+/* -------------------------------- */
 
 .ex-7-img {
     transition: 5s;
 }
 .ex-7-img:hover {
     filter: sepia(100%) saturate(5);
-
+}
+/* -------------------------------- */
+.ex-8-img {
+    transition: 5s;
+}
+.ex-8-img:hover {
+    filter: contrast(5)  contrast(150%);
+    border-radius: 15px;
 }
