@@ -126,10 +126,14 @@
     filter: sepia(100%) saturate(5);
 }
 /* -------------------------------- */
+
 .ex-8-img {
     transition: 5s;
 }
 .ex-8-img:hover {
-    filter: contrast(5)  contrast(150%);
+    filter: saturate(5)  contrast(150%);
     border-radius: 15px;
 }
+/* -------------------------------- */
+
+
