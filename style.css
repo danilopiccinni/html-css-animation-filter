@@ -143,3 +143,12 @@
     border-radius: 15px;
     width: 600px;
 }
+/* -------------------------------- */
+
+@keyframes rotazione360 {
+    100% {rotate: 360deg;}
+}
+
+.ex-10-icon:hover {
+    animation: rotazione360 3s infinite;
+}
